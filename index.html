@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tienda Volkswagen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tienda Volkswagen</h1>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <section class="productos">
+        <div class="producto">
+          <img src="https://via.placeholder.com/200x150" alt="Llavero VW" />
+          <h2>Llavero VW</h2>
+          <p>$150 MXN</p>
+          <button onclick="agregarAlCarrito('Llavero VW', 150)">
+            Agregar al carrito
+          </button>
+        </div>
+        <div class="producto">
+          <img src="https://via.placeholder.com/200x150" alt="Gorra VW" />
+          <h2>Gorra VW</h2>
+          <p>$300 MXN</p>
+          <button onclick="agregarAlCarrito('Gorra VW', 300)">
+            Agregar al carrito
+          </button>
+        </div>
+      </section>
+
+      <section class="carrito">
+        <h2>Carrito</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total">0</span> MXN</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Tienda Volkswagen. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

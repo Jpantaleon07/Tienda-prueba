@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #003087;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+.productos {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+.carrito {
+  margin-top: 2rem;
+  background: #f5f5f5;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
